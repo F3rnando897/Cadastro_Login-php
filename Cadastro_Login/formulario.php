@@ -48,38 +48,31 @@
     <style>
     body{
         font-family: Arial, Helvetica, sans-serif;
-        background-image: linear-gradient(to right, rgb(20, 147, 220),  rgb(17, 54, 71));
+        background-color: #1f1f21;
     }
     .box{
-        color: white;
+        color: black;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: white;
         padding: 15px;
-        border-radius: 15px;
+
+       
         width: 30%;
     }
-    fieldset{
-        border: 3px solid dodgerblue;
-    }
-    legend{
-        border: 1px solid dodgerblue;
-        padding: 10px;
-        text-align: center;
-        background-color: dodgerblue;
-        border-radius: 8px;
-    }
+   
+    
     .inputBox{
         position: relative;
     }
     .inputUser{
         background: none;
         border: none;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid black;
         outline: none;
-        color: white;
+        color: dark;
         font-size: 15px;
         width: 100%;
         letter-spacing: 2px;
@@ -124,7 +117,7 @@
         <div class="box">
             <form action="formulario.php" method="POST">
                 <fieldset>
-                    <legend><b>Formulario de Clientes</b></legend>
+                    <legend><b>Cadastro</b></legend>
                     <br>
                     <div class="inputBox">
                         <input type="text" name="name" id="nome" class="inputUser" required>
