@@ -15,25 +15,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">  
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>SISTEMA | GN</title>
     <style>
         body{
-            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background-color: #1f1f21;
             color: white;
             text-align: center;
         }
         .table-bg{
             background: rgba(0, 0, 0, 0.3);
-            border-radius: 15px 15px 0 0;
+            border-radius: 15px 15px 0  0;
+        }
+        .color-nav{
+            background-color: #303036;
         }
         </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark color-nav">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">SISTEMA DO GN</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
