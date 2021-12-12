@@ -8,7 +8,7 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background-color: #1f1f21;
             text-align: center;
             color: white;
         }
@@ -34,8 +34,8 @@
     </style>
 </head>
 <body>
-    <h1>Se inscreva no canal </h1>
-    <h2>Prof. Gustavo Neitzke</h2>
+    <h1>Homepage </h1>
+    
     <div class="box">
         <a href="telaLogin.php">Login</a>
         <a href="formulario.php">Cadastre-se</a>
