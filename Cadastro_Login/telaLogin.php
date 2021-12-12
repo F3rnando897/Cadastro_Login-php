@@ -8,23 +8,26 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(45deg, cyan, yellow);
+            background-color: #303036;
         }
         div{
-            background-color: rgba(0, 0, 0, 0.9);
+            background-color: white;
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%,-50%);
             padding: 80px;
-            border-radius: 15px;
-            color: #fff;
+            
+           
+            color: black;
         }
         input{
             padding: 15px;
-            border: none;
+            
+            border-bottom-color: black;
             outline: none;
             font-size: 15px;
+            border-color: black;
         }
         .inputSubmit{
             background-color: dodgerblue;
@@ -53,6 +56,10 @@
                 <br><br>
                 <input class="inputSubmit" type="submit" name="submit" value="Enviar">
             </form>
+
+           <br>
+                <a href="formulario.php">Cadastre-se</a>
+               
     </div>
 </body>
 </html>
