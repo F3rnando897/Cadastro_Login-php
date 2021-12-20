@@ -51,12 +51,8 @@
         transform: translate(-50%, -50%);
         background-color: white;
         padding: 15px;
-
-       
         width: 30%;
     }
-   
-    
     .inputBox{
         position: relative;
     }
