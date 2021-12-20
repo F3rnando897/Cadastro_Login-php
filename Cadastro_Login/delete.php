@@ -17,5 +17,4 @@
         }
     }
     header('Location: sistema.php');
-   
 ?>
