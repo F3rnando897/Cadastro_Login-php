@@ -25,7 +25,7 @@
             background-color: #1f1f21;
             color: white;
             text-align: center;
-        }
+        } 
         .table-bg{
             background: rgba(0, 0, 0, 0.3);
             border-radius: 15px 15px 0  0;
