@@ -1,4 +1,5 @@
 <?php
+
     if (isset($_POST['submit'])) {
         // print_r('Nome: ' . $_POST['name']);
         // print_r('<br>');
@@ -105,9 +106,9 @@
         color:white;
         font-size: 15px;
         cursor: pointer;
-        border-radius: 10px;
+        border-radius: 9px;
     }
-    #submit:hover{
+    #submit:hover
         background-image: linear-gradient(to right, rgb(0 ,80, 172), rgb(80 ,19 ,195));
     }
 </style>
@@ -172,5 +173,6 @@
                 </fieldset>
             </form>
         </div>
+
 </body>
 </html>
