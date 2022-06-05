@@ -35,7 +35,8 @@
         VALUES('$nome', '$email', '$senha', '$telefone', '$sexo','$data_nasc', '$cidade', '$estado', '$endereco')");
 
         header('Location: testeLogin.php');
-    }
+    
+}
 ?>
 
 <!DOCTYPE html>
